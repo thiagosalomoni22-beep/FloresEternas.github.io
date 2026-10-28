@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flores Eternas - Rosas artesanales y regalos personalizados. Detalles únicos para momentos especiales.">
+    <title>Flores Eternas | Rosas Artesanales y Regalos Personalizados</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Enlace al CSS -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVEGACIÓN ===== -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" aria-label="Ir al inicio">
+                <img src="logo.jpg" alt="Logo Flores Eternas" class="logo-img">
+                <span>Flores Eternas</span>
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#productos" class="nav-link">Productos</a></li>
+                    <li><a href="#personalizados" class="nav-link">Personalizados</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <a href="#" class="btn btn-primary nav-cta btn-wa-general">Hacer un pedido</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== HERO / PORTADA ===== -->
+        <section class="hero" id="inicio">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <span class="hero-subtitle">Detalles que perduran</span>
+                    <h1 class="hero-title">Regalá flores que cuentan historias para siempre</h1>
+                    <p class="hero-text">Elaboramos flores eternas y regalos artesanales con dedicación, para que tus momentos especiales nunca se marchiten.</p>
+                    <div class="hero-buttons">
+                        <a href="#productos" class="btn btn-primary">Ver colección</a>
+                        <a href="#" class="btn btn-secondary btn-wa-general">Consultar por WhatsApp</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <img src="ramo-rosas.jpg" alt="Hermoso ramo de rosas eternas rojas con envoltorio blanco y mariposa decorativa" loading="eager">
+                    <div class="decorative-circle"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BENEFICIOS ===== -->
+        <section class="benefits">
+            <div class="container benefits-grid">
+                <div class="benefit-item fade-in">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Diseños artesanales</h3>
+                    <p>Cada pieza es única y hecha a mano con los más altos estándares de calidad.</p>
+                </div>
+                <div class="benefit-item fade-in">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                    </div>
+                    <h3>Regalos personalizados</h3>
+                    <p>Elegí colores, presentaciones y detalles para crear el regalo perfecto.</p>
+                </div>
+                <div class="benefit-item fade-in">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <h3>Presentaciones cuidadas</h3>
+                    <p>Empaques elegantes y detalles decorativos que realzan cada regalo.</p>
+                </div>
+                <div class="benefit-item fade-in">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Pensados para durar</h3>
+                    <p>Nuestras rosas no se marchitan, mantienen su belleza intacta en el tiempo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CATÁLOGO DE PRODUCTOS ===== -->
+        <section class="products" id="productos">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Nuestra Colección</h2>
+                    <p class="section-desc">Descubrí nuestros diseños más elegidos. Recordá que todos son 100% personalizables.</p>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Producto 1 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="rosa-eterna.jpg" alt="Rosa eterna individual en cono de papel con moño dorado" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Rosa Eterna Individual</h3>
+                            <p class="product-desc">Una sola rosa de satén presentada en un delicado cono con detalles en dorado. Ideal para un detalle especial.</p>
+                            <button class="btn btn-outline btn-wa-product" data-product="Rosa Eterna Individual">Consultar por WhatsApp</button>
+                        </div>
+                    </article>
+
+                    <!-- Producto 2 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="ramo-tres-rosas.jpg" alt="Ramo de rosas eternas fucsias y lilas con mariposa decorativa" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Ramo de seis Rosas</h3>
+                            <p class="product-desc">Combinación de rosas en tonos fucsia y lila, con envoltorio premium y mariposa decorativa.</p>
+                            <button class="btn btn-outline btn-wa-product" data-product="Ramo de Tres Rosas">Consultar por WhatsApp</button>
+                        </div>
+                    </article>
+
+                    <!-- Producto 3 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="caja-personalizada.jpg" alt="Caja personalizada de cumpleaños con temática Hello Kitty, maquillaje y rosas fucsias" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Caja Personalizada</h3>
+                            <p class="product-desc">Caja de regalo armada a medida. Incluye peluche, maquillaje, chocolates y rosas eternas. ¡Contanos tu idea!</p>
+                            <button class="btn btn-outline btn-wa-product" data-product="Caja Personalizada">Consultar por WhatsApp</button>
+                        </div>
+                    </article>
+
+                    <!-- Producto 4 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="girasol-chocolate.jpg" alt="Girasol artesanal de satén con centro de chocolates" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Girasol</h3>
+                            <p class="product-desc">Original girasol de tela con centro de goma eva. Una opción distinta, dulce y llena de luz.</p>
+                            <button class="btn btn-outline btn-wa-product" data-product="Girasol con Chocolates">Consultar por WhatsApp</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DECORACIONES Y EXTRAS ===== -->
+        <section class="extras" id="extras">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Decoraciones y Extras</h2>
+                    <p class="section-desc">Estos detalles se piden <strong>aparte</strong> y no están incluidos en el precio de cada producto. Sumá los que quieras y consultanos el valor por WhatsApp.</p>
+                </div>
+                <div class="extras-grid">
+                    <div class="extra-card fade-in">
+                        <div class="extra-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 12C10 5 3 4 4 9c.5 3 5 4 8 3zM12 12c2-7 9-8 8-3-.5 3-5 4-8 3zM12 12c-3 0-6 2-5 5 .8 2.5 4 1.5 5-5zM12 12c3 0 6 2 5 5-.8 2.5-4 1.5-5-5z"/></svg>
+                        </div>
+                        <h3>Mariposas</h3>
+                        <p>Doradas, plateadas o de colores para decorar ramos y conos.</p>
+                    </div>
+                    <div class="extra-card fade-in">
+                        <div class="extra-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg>
+                        </div>
+                        <h3>Luces</h3>
+                        <p>Lucecitas LED para darle un toque mágico a tu regalo.</p>
+                    </div>
+                    <div class="extra-card fade-in">
+                        <div class="extra-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><line x1="7" y1="9" x2="17" y2="9"/><line x1="7" y1="12" x2="13" y2="12"/><line x1="12" y1="16" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Carteles</h3>
+                        <p>Carteles con frases o el nombre de quien recibe el regalo.</p>
+                    </div>
+                    <div class="extra-card fade-in">
+                        <div class="extra-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>
+                        </div>
+                        <h3>Cartas</h3>
+                        <p>Tarjetas dedicatorias con tu mensaje.</p>
+                    </div>
+                    <div class="extra-card fade-in">
+                        <div class="extra-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="6"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="7" r="2.5"/><circle cx="10" cy="12" r=".6"/><circle cx="14" cy="12" r=".6"/><path d="M10.5 15.5q1.5 1 3 0"/></svg>
+                        </div>
+                        <h3>Muñecos</h3>
+                        <p>Peluches y muñecos para acompañar el ramo o la caja.</p>
+                    </div>
+                </div>
+                <div class="extras-cta fade-in">
+                    <a href="#" class="btn btn-primary btn-wa-general">Consultar por extras</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALERÍA ===== -->
+        <section class="gallery" id="galeria">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Nuestros Trabajos</h2>
+                    <p class="section-desc">Un vistazo a los detalles que creamos con amor.</p>
+                </div>
+                <div class="gallery-grid fade-in">
+                    <img src="ramo-mixto.jpg" alt="Ramo de rosas eternas azules y amarillas" loading="lazy">
+                    <img src="rosas-chocolates.jpg" alt="Rosas rojas con detalles en dorado" loading="lazy">
+                    <img src="rosa-mariposa.jpg" alt="Rosa eterna rosa en cono con mariposa decorativa" loading="lazy">
+                    <img src="rosa-fucsia.jpg" alt="Rosa eterna fucsia en cono rosa" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PERSONALIZACIÓN ===== -->
+        <section class="personalization" id="personalizados">
+            <div class="container personalization-container fade-in">
+                <div class="personalization-content">
+                    <h2 class="section-title">Creá un regalo único</h2>
+                    <p>Entendemos que cada historia es diferente. Por eso, te ofrecemos la posibilidad de personalizar tu regalo:</p>
+                    <ul class="personalization-list">
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Colores de las rosas (rojo, rosa, fucsia, azul, amarillo, etc.).
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Tipo de presentación (ramos, cajas, conos).
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Agregado de chocolates, peluches o maquillaje.
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Tarjetas dedicatorias personalizadas.
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-wa-general">Personalizar mi regalo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE NOSOTROS ===== -->
+        <section class="about" id="nosotros">
+            <div class="container about-container fade-in">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p>En <strong>Flores Eternas</strong>, creemos que los mejores regalos son aquellos que guardan un pedacito de nuestra esencia. Nacimos de la pasión por el arte manual y el deseo de ofrecer detalles que no se marchiten con el tiempo.</p>
+                    <p>Cada rosa es confeccionada a mano, prestando atención a cada pétalo, cada lazo y cada presentación. Nos encanta ser parte de sus historias de amor, cumpleaños, aniversarios y fechas especiales, ayudándolos a expresar lo que sienten a través de un regalo único.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PREGUNTAS FRECUENTES ===== -->
+        <section class="faq" id="faq">
+            <div class="container faq-container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Preguntas Frecuentes</h2>
+                </div>
+                <div class="accordion fade-in">
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            ¿Cómo realizo un pedido?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <p>Podés realizar tu pedido directamente haciendo clic en cualquier botón de WhatsApp de la página. Te atenderemos para coordinar detalles, colores y forma de pago/entrega.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            ¿Qué opciones de personalización existen?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <p>Podés elegir los colores de las rosas, el tipo de empaque (caja, ramo, cono), agregar chocolates, peluches o tarjetas dedicatorias. Todo se coordina por WhatsApp según el producto.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            ¿Cuánto tarda la preparación?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <p>El tiempo de preparación varía según la complejidad del diseño. Generalmente, coordinamos la entrega con [X] días de anticipación. ¡Consultá por tu fecha especial!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            ¿Qué medios de entrega están disponibles?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <p>Realizamos entregas en Zárate y alrededores, y también podés retirar por el domicilio coordinado previamente. Consultanos por envíos a otras zonas.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            ¿Cómo consulto los precios?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <p>Al ser productos personalizados, el precio depende del diseño y los agregados. Consultanos por WhatsApp y te enviamos el presupuesto exacto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
+        <section class="contact" id="contacto">
+            <div class="container contact-container fade-in">
+                <h2 class="section-title">Hagamos algo especial</h2>
+                <p>Estamos listos para ayudarte a sorprender a esa persona especial.</p>
+                <a href="#" class="btn btn-primary btn-large btn-wa-general">Pedir por WhatsApp</a>
+                
+                <div class="contact-info-grid">
+                    <div class="contact-item">
+                        <h4>Horarios de atención</h4>
+                        <p>Lunes a Sábados</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Zona de entrega</h4>
+                        <p>Zárate y alrededores<br>Envíos a coordinar</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Redes Sociales</h4>
+                        <div class="social-links">
+                            <a href="https://instagram.com/bloomia.eterna" target="_blank" rel="noopener" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                @bloomia.eterna
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">
+                    <img src="logo.jpg" alt="Logo Flores Eternas" class="logo-img">
+                    Flores Eternas
+                </a>
+                <p>Regalos artesanales que perduran en el tiempo.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#personalizados">Personalizados</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>WhatsApp: +54 9 3487 21-6316</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Flores Eternas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="#" class="whatsapp-float btn-wa-general" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- Enlace al JS -->
+    <script src="script.js"></script>
+</body>
+</html>
